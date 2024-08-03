@@ -8,4 +8,5 @@
 - 该应用仅支持Windows 10以上的系统，不支持移动端以及Mac（详见Wiki页面）
 - 该项目灵感来自[基沃托斯古书馆](https://kivo.wiki/ "基沃托斯古书馆 ~蔚蓝档案与百科的奇迹~")，部分内容也是引自那里，我会标出来的
 - 这应该并不是真正的Wiki，只是好记而已
-- 具体的更新规划、使用技术、文件说明、使用说明等详细内容请见Wiki页面
+- 具体的更新规划、使用技术、文件说明、使用说明等详细内容请见Wiki页面 (This wiki only support Chinese! Because I am not good at speak in English. I am so sorry about that.)
+
