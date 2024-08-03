@@ -12,14 +12,14 @@
 
   <Identity
     Name="51328473-e44f-4216-bec6-a18dc41406f4"
-    Publisher="CN=yjhvi"
+    Publisher="CN=文柳轻扬"
     Version="1.0.0.0" />
     
   <mp:PhoneIdentity PhoneProductId="51328473-e44f-4216-bec6-a18dc41406f4" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
     
   <Properties>
     <DisplayName>Blue-Tools-Kit</DisplayName>
-    <PublisherDisplayName>yjhvi</PublisherDisplayName>
+    <PublisherDisplayName>文柳轻扬</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

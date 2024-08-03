@@ -20,4 +20,9 @@ public sealed partial class Kivo_WikiPage : Page
         
         ViewModel.WebViewService.Initialize(WebView);
     }
+
+    private void Button_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
+    {
+        
+    }
 }
