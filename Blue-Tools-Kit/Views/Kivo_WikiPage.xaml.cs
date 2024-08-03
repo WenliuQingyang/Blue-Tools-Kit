@@ -14,9 +14,10 @@ public sealed partial class Kivo_WikiPage : Page
 
     public Kivo_WikiPage()
     {
+        
         ViewModel = App.GetService<Kivo_WikiViewModel>();
         InitializeComponent();
-
+        
         ViewModel.WebViewService.Initialize(WebView);
     }
 }

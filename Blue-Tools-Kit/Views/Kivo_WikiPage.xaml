@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:behaviors="using:Blue_Tools_Kit.Behaviors"
+    xmlns:behaviors="using:Blue_Tools_Kit.Behaviors" xmlns:controls="using:Microsoft.UI.Xaml.Controls"
     behaviors:NavigationViewHeaderBehavior.HeaderMode="Never"
     mc:Ignorable="d">
 
@@ -17,6 +17,8 @@
         <WebView2
             x:Name="WebView"
             Source="{x:Bind ViewModel.Source, Mode=OneWay}" />
+
+        <controls:WebView2 x:Name="MyWebView2" Source="https://kivo.wiki/"/>
 
         <StackPanel
             HorizontalAlignment="Center"

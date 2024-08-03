@@ -43,32 +43,44 @@
                 TODO: Update item icons by updating FontIcon.Glyph properties.
                 https://docs.microsoft.com/windows/apps/design/style/segoe-fluent-icons-font#icon-list
                 -->
+                
+                <!--主页-->
                 <NavigationViewItem x:Uid="Shell_Home" helpers:NavigationHelper.NavigateTo="Blue_Tools_Kit.ViewModels.HomeViewModel">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
+                
+                <!--基沃托斯古书馆-->
                 <NavigationViewItem x:Uid="Shell_Kivo_Wiki" helpers:NavigationHelper.NavigateTo="Blue_Tools_Kit.ViewModels.Kivo_WikiViewModel">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe774;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_plugins" helpers:NavigationHelper.NavigateTo="Blue_Tools_Kit.ViewModels.pluginsViewModel">
+                
+                <!--插件-->
+                <!--<NavigationViewItem x:Uid="Shell_plugins" helpers:NavigationHelper.NavigateTo="Blue_Tools_Kit.ViewModels.pluginsViewModel">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xf0e2;"/>
                     </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_Blue_Talk" helpers:NavigationHelper.NavigateTo="Blue_Tools_Kit.ViewModels.Blue_TalkViewModel">
+                </NavigationViewItem>-->
+                
+                <!--Blue Talk-->
+                <!--<NavigationViewItem x:Uid="Shell_Blue_Talk" helpers:NavigationHelper.NavigateTo="Blue_Tools_Kit.ViewModels.Blue_TalkViewModel">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xea37;"/>
                     </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_text" helpers:NavigationHelper.NavigateTo="Blue_Tools_Kit.ViewModels.textViewModel">
+                </NavigationViewItem>-->
+                
+                <!--text-->
+                <!--<NavigationViewItem x:Uid="Shell_text" helpers:NavigationHelper.NavigateTo="Blue_Tools_Kit.ViewModels.textViewModel">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe80a;"/>
                     </NavigationViewItem.Icon>
-                </NavigationViewItem>
+                </NavigationViewItem>-->
+                
             </NavigationView.MenuItems>
+            
             <NavigationView.HeaderTemplate>
                 <DataTemplate>
                     <Grid>
@@ -78,6 +90,7 @@
                     </Grid>
                 </DataTemplate>
             </NavigationView.HeaderTemplate>
+            
             <i:Interaction.Behaviors>
                 <behaviors:NavigationViewHeaderBehavior
                     DefaultHeader="{x:Bind ((ContentControl)ViewModel.Selected).Content, Mode=OneWay}">
@@ -92,6 +105,7 @@
                     </behaviors:NavigationViewHeaderBehavior.DefaultHeaderTemplate>
                 </behaviors:NavigationViewHeaderBehavior>
             </i:Interaction.Behaviors>
+            
             <Grid Margin="{StaticResource NavigationViewPageContentMargin}">
                 <Frame x:Name="NavigationFrame" />
             </Grid>
