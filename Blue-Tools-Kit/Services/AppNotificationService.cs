@@ -1,12 +1,11 @@
 ﻿using System.Collections.Specialized;
 using System.Web;
-
 using Blue_Tools_Kit.Contracts.Services;
 using Blue_Tools_Kit.ViewModels;
 
 using Microsoft.Windows.AppNotifications;
 
-namespace Blue_Tools_Kit.Notifications;
+namespace Blue_Tools_Kit.Services;
 
 public class AppNotificationService : IAppNotificationService
 {
