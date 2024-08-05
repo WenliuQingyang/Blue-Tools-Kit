@@ -14,7 +14,7 @@
 	<UseWinUI>true</UseWinUI>
     <EnableMsixTooling>true</EnableMsixTooling>
     <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
-    <DefaultLanguage>en-us</DefaultLanguage>
+    <DefaultLanguage>en-US</DefaultLanguage>
     <PackageCertificateThumbprint>C28789E3CE538323B6793D916C32985EA2CF07AE</PackageCertificateThumbprint>
     <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
   </PropertyGroup>

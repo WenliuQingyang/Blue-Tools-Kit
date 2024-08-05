@@ -117,14 +117,117 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>蔚蓝工具包</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>蔚蓝工具包</value>
   </data>
-  <data name="AppDisplayName" xml:space="preserve">
-    <value>蔚蓝工具包</value>
-    <comment>应用显示名称</comment>
+  <data name="Shell_Home.Content" xml:space="preserve">
+    <value>主页</value>
   </data>
   <data name="WebView_Loading.Text" xml:space="preserve">
-    <value>加载中…</value>
+    <value>加载中...</value>
+  </data>
+  <data name="WebView_FailedMessage.Text" xml:space="preserve">
+    <value>页面加载失败，请检查链接后重试</value>
+  </data>
+  <data name="BrowserBackButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="BrowserBackButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="BrowserForwardButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>向前</value>
+  </data>
+  <data name="BrowserForwardButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>向前</value>
+  </data>
+  <data name="WebView_Reload.Content" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="ReloadButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="ReloadButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="OpenInBrowserButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>在浏览器中打开</value>
+  </data>
+  <data name="OpenInBrowserButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>在浏览器中打开</value>
+  </data>
+  <data name="Shell_Kivo_Wiki.Content" xml:space="preserve">
+    <value>基沃托斯古书馆</value>
+  </data>
+  <data name="Shell_plugins.Content" xml:space="preserve">
+    <value>插件</value>
+  </data>
+  <data name="Blue_Talk_NoSelection.Text" xml:space="preserve">
+    <value>请从列表中选择一个项目</value>
+  </data>
+  <data name="Shell_Blue_Talk.Content" xml:space="preserve">
+    <value>Blue Talk</value>
+  </data>
+  <data name="Shell_text.Content" xml:space="preserve">
+    <value>text</value>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>个性化</value>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>浅色</value>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>深色</value>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>跟随系统</value>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>关于此应用</value>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>TODO: Replace with your app description.</value>
+  </data>
+  <data name="SettingsPage_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>隐私声明</value>
+  </data>
+  <data name="SettingsPage_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://YourPrivacyUrlGoesHere/</value>
+  </data>
+  <data name="AppNotificationSamplePayload" xml:space="preserve">
+    <value>&lt;toast launch="action=ToastClick"&gt;
+  &lt;visual&gt;
+    &lt;binding template="ToastGeneric"&gt;
+      &lt;text&gt;App Notification&lt;/text&gt;
+      &lt;text&gt;&lt;/text&gt;
+      &lt;image placement="appLogoOverride" hint-crop="circle" src="{0}Assets/WindowIcon.ico"/&gt;
+    &lt;/binding&gt;
+  &lt;/visual&gt;
+  &lt;actions&gt;
+    &lt;action content="Settings" arguments="action=Settings"/&gt;
+  &lt;/actions&gt;
+&lt;/toast&gt;</value>
+  </data>
+  <data name="Settings_Languages.Text" xml:space="preserve">
+    <value>语言选项</value>
+  </data>
+  <data name="Settings_Language_And_Format.Text" xml:space="preserve">
+    <value>语言和格式</value>
+  </data>
+  <data name="Settings_Language_Chinese.Content" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="Settings_Language_English.Content" xml:space="preserve">
+    <value>英文</value>
+  </data>
+  <data name="Wrong_Sorry_Function.Text" xml:space="preserve">
+    <value>很抱歉，此功能正在开发中</value>
   </data>
 </root>

@@ -1,6 +1,7 @@
 ﻿using Blue_Tools_Kit.ViewModels;
 
 using Microsoft.UI.Xaml.Controls;
+using Windows.Globalization;
 
 namespace Blue_Tools_Kit.Views;
 
@@ -12,9 +13,16 @@ public sealed partial class SettingsPage : Page
         get;
     }
 
+    public languageViewModel LanguageViewModel { get; }
+
     public SettingsPage()
     {
+        
+        ApplicationLanguages.PrimaryLanguageOverride = "zh-CN";
+        
         ViewModel = App.GetService<SettingsViewModel>();
         InitializeComponent();
     }
+
+    
 }

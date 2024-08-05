@@ -10,6 +10,7 @@ using CommunityToolkit.Mvvm.Input;
 using Microsoft.UI.Xaml;
 
 using Windows.ApplicationModel;
+using Windows.Foundation;
 
 namespace Blue_Tools_Kit.ViewModels;
 
@@ -17,12 +18,15 @@ public partial class SettingsViewModel : ObservableRecipient
 {
     private readonly IThemeSelectorService _themeSelectorService;
 
+    
+
     [ObservableProperty]
     private ElementTheme _elementTheme;
 
     [ObservableProperty]
     private string _versionDescription;
 
+    
     public ICommand SwitchThemeCommand
     {
         get;

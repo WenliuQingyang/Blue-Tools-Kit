@@ -215,4 +215,19 @@
   &lt;/actions&gt;
 &lt;/toast&gt;</value>
   </data>
+  <data name="Settings_Languages.Text" xml:space="preserve">
+    <value>Language Setting</value>
+  </data>
+  <data name="Settings_Language_And_Format.Text" xml:space="preserve">
+    <value>Language And Format</value>
+  </data>
+  <data name="Settings_Language_Chinese.Content" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="Settings_Language_English.Content" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Wrong_Sorry_Function.Text" xml:space="preserve">
+    <value>Sorry, this funtion is developing.</value>
+  </data>
 </root>
