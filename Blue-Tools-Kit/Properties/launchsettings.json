@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "Blue-Tools-Kit (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "Blue-Tools-Kit (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
